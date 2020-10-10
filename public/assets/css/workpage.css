@@ -1,0 +1,140 @@
+
+.workpage-wrapper{
+    clear: both;
+    width: 100%;
+    height: auto;
+    text-decoration: none;
+    border: none;
+    
+}
+.workpage-wrapper ul {
+    margin-left: 190px;
+    list-style: none;
+    border-bottom:none;
+    text-decoration: none;
+    border: none;
+    position: relative;
+}
+.workpage-wrapper ul li{
+    border-bottom:none;
+    list-style: none;
+    width: 200px;
+}
+@media(max-width: 550px){
+    .workpage-wrapper ul{
+        left: -10%;
+    }  
+}
+@media(max-width: 420px){
+    .workpage-wrapper ul{
+        left: -20%;
+    }  
+}
+@media(max-width: 380px){
+    .workpage-wrapper ul{
+        left: -25%;
+    }  
+}
+@media(max-width: 325px){
+    .workpage-wrapper ul{
+        left: -40%;
+    }  
+}
+@media(max-width: 285px){
+    .workpage-wrapper ul{
+        left: -55%;
+    }  
+}
+.navi-item {
+    user-select: none;
+    margin: 120px 0;
+    text-decoration: none;
+    border: none;
+}
+  
+.navi-item a {
+    font-family: "Roboto Mono" !important;
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom:none;
+    display: inline;
+}
+  
+.workpage-wrapper span {
+    color: #adadad; 
+    position: relative;
+    border:none;
+    text-decoration: none;
+    
+}
+  
+.navi-item span:before {
+    width: 0;
+    color: #ffffff;
+    text-decoration: none;
+    overflow: hidden;
+    position: absolute;
+    content: attr(data-text);
+    transition: all .5s cubic-bezier(0.84, 0, 0.08, 0.99);
+    border:none
+    
+}
+  
+.navi-item span:hover:before {
+    width: 100%;
+}
+  
+.projects-wrapper {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    border: none;
+}
+  
+.projects-prv {
+    position: fixed;
+    top: 12%;
+    left: 40%;
+    width: 0px;
+    height: 400px;
+    background: url('/assets/img/light.jpg') no-repeat 50% 50%;
+    background-size: cover;
+    overflow: hidden;
+    text-decoration: none;
+    border: none;
+}
+  
+@media (max-width: 800px) {
+  
+    .workpage-wrapper a {
+      font-size: 18px;
+      text-decoration: none;
+    }
+    .projects-prv{
+        display: none;
+    }
+    .workpage-wrapper ul{
+        margin-left: 30px;
+    }
+}
+@media (max-width: 420px) {
+  
+    .workpage-wrapper a {
+      font-size: 15px;
+    }
+    .workpage-wrapper ul{
+        margin-left: 60px;
+    }
+}
+@media (max-width: 400px) {
+  
+    .workpage-wrapper a {
+      font-size: 15px;
+    }
+    .workpage-wrapper ul{
+        margin-left: 55px;
+    }
+}

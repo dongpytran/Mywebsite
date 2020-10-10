@@ -1,0 +1,1 @@
+alert('Use your fucking headphone to Fuarkkkk you motherfaka!');
