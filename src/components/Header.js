@@ -31,7 +31,7 @@ class Header extends React.Component{
 
                   <ul id="menu">
                         <li><Link to="/"><span>.</span>Home</Link></li>
-                        <li><Link to="/playlist"><span>.</span>Album</Link></li>
+                        <li><Link to="/playlist"><span>.</span>Playlist</Link></li>
                         <li><Link to="/about"><span>.</span>About</Link></li>
                         <li><Link to="/contact"><span>.</span>Contact</Link></li>
                   </ul>
