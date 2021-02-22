@@ -54,7 +54,7 @@ class Footer extends React.Component{
                         </div>
                   </div>
                   <div className="end-footer">
-                        <p className="wow fadeInUp" data-wow-delay="0.1s">Designed & Developed by TranDongPy</p>
+                        <p className="wow fadeInUp" data-wow-delay="0.1s">-- TranDongPy --</p>
                         <p className="wow fadeInUp" data-wow-delay="0.3s">All rights reserved &copy; 2020</p>
                         <img src="./assets/img/sign2.gif" alt="pytran" className="wow fadeInUp" data-wow-delay="0.4s"/>
                   </div>
